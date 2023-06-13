@@ -66,6 +66,12 @@ class MenuItemSeeder extends Seeder
                     'permission_name' => 'menu-item.index',
                     'menu_group_id' => 4,
                 ],
+                [
+                    'name' => 'Sistem Pendukung Keputusan',
+                    'route' => 'sistem-pendukung-keputusan/spk-data',
+                    'permission_name' => 'spk-data.index',
+                    'menu_group_id' => 5,
+                ],
             ]
         );
     }
